@@ -86,7 +86,7 @@ image::images/MetalLB/07_MetalLB_available.png[]
 
 endif::[]
 
-#ifeval::["{preinstall_operators}" == "True"]
+ifeval::["{preinstall_operators}" == "True"]
 
 == Review Operator
 
@@ -102,7 +102,7 @@ image::images/MetalLB/02_Review_Operator.png[]
 +
 image::images/MetalLB/03_Review_Operator_MetalLB.png[]
 
-#endif::[]
+endif::[]
 
 === Define IP AddressPool
 
